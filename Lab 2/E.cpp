@@ -39,7 +39,6 @@ int main() {
     for (int i = 0; i < vertexNum; i++)
         if (!visited[i])
             dfs(i);
-    bool flag = true;
     for (int i = vertexNum - 1; i > 0; i--)
         if (!exist(way[i], way[i - 1])) {
             fout << "NO";
