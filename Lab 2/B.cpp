@@ -61,7 +61,5 @@ int main() {
 	}
 	else
 		fout << "NO";
-	fin.close();
-	fout.close();
 	return 0;
 }
