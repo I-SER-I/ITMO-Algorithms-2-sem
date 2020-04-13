@@ -19,7 +19,7 @@ vector<bool> visited;
 void ford(long long vertex) {
     dist[vertex] = 0;
     for (long long i = 0; i < vertexNum; i++) {
-        x = -1;a
+        x = -1;
         for (long long j = 0; j < edgeNum; j++) {
             if (dist[edgeList[j].from] < INF) {
                 if (dist[edgeList[j].to] > dist[edgeList[j].from] + edgeList[j].weight) {
