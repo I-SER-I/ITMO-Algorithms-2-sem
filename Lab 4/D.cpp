@@ -7,7 +7,7 @@ struct edge {
     long long from, to, weight;
 };
 
-const long long INF = 228228228228;
+const long long INF = 8228228228228228228;
 long long vertexNum, edgeNum, start;
 long long x = -1;
 vector<edge> edgeList;
