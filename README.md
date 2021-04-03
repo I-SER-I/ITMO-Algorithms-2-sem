@@ -1,4 +1,4 @@
-# Data Structures and Algorithms
+# Data Structures and Algorithms II
 
 Lab. works on Data Structures and Algorithms in ITMO University. The lab work was done in C++ language. The main topic is graphs and finding substings on strings.
 
